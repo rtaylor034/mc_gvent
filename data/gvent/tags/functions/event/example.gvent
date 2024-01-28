@@ -1,0 +1,15 @@
+> #gvent:event > on_example
+--------------------
+ * when this event is triggered/called
+   - can gramatically assume the word "triggers" before each entry
+ * another trigger
+--------------------
+ -> immutable_info: int
+--------------------
+ <-> mutable_passed_variable: string
+--------------------
+ - description and notes about passed inputs.
+ - immutable inputs such as <immutable_input> are provided as a single object via macro variable '$(info_object)'
+ - mutable pass variables such as >mutable_passed_variable< is accessable through '$(pass)', which aliases a storage declaration that holds the passed data.
+   - for example: `data modify storage $(pass).mutable_passed_variable set...`
+--------------------
