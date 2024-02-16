@@ -18,7 +18,6 @@
 #declare storage gvent:out
 #declare storage gvent:dirty
 
-$data modify storage gvent:in call set value $(in)
 execute unless data storage gvent:in call.info run data modify storage gvent:in call.info set value {}
 execute unless data storage gvent:in call.pass run data modify storage gvent:in call.pass set value {}
 
