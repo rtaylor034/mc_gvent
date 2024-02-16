@@ -3,4 +3,4 @@
 # @api
 #--------------------
 
-$function $(event) with storage gvent:var call.macro
+$function $(event) with storage gvent:var call.with
