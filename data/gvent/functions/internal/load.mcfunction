@@ -7,4 +7,5 @@
 #declare storage gvent:in
 #declare storage gvent:out
 #declare storage gvent:dirty
-#scoreboard objectives add boxx_var dummy
+
+scoreboard players set *gvent load.status 1
