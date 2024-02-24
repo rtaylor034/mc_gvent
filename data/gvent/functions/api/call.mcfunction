@@ -13,11 +13,6 @@
 # ...
 #--------------------
 
-#declare storage gvent:var
-#declare storage gvent:in
-#declare storage gvent:out
-#declare storage gvent:dirty
-
 data modify storage gvent:dirty call.stack append from storage gvent:in call
 data remove storage gvent:in call
 
