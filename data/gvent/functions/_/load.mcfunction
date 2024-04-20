@@ -1,4 +1,4 @@
-#>gvent:internal/load
+#>gvent:_/load
 #--------------------
 # @LOAD
 #--------------------
